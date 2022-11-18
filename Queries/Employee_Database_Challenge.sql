@@ -30,6 +30,7 @@ FROM unique_title as u
 GROUP BY u.titles
 ORDER BY COUNT(emp_no) DESC;
 
+
 -- Creating Table for Mentorship Eligibility
 SELECT DISTINCT ON(e.emp_no)e.emp_no,
 		e.first_name,
@@ -49,7 +50,7 @@ AND (de.to_date = '9999-01-01')
 ORDER BY e.emp_no ASC;
 
 
--- Creating table for no. of roles that need replacement
+-- Creating table for Retiring Employees in each department
 SELECT e.emp_no,
 	e.first_name,
 	e.last_name,
@@ -66,7 +67,7 @@ AND (de.to_date = '9999-01-01')
 ORDER BY e.emp_no ASC;
 
 
--- Number of employees retiring from each department
+-- Total number of employees retiring from each department
 SELECT COUNT(red.emp_no) AS "No_employees",red.dept_name
 INTO retiring_dept
 FROM retire_dept as red

@@ -13,7 +13,7 @@
 
 	1.[departments](https://github.com/manasidek/Pewlett_Hackard_Analysis/blob/main/Data/departments.csv)
 
-	2.[deparment employes](https://github.com/manasidek/Pewlett_Hackard_Analysis/blob/main/Data/dept_emp.csv)
+	2.[department employees](https://github.com/manasidek/Pewlett_Hackard_Analysis/blob/main/Data/dept_emp.csv)
 
 	3.[department managers](https://github.com/manasidek/Pewlett_Hackard_Analysis/blob/main/Data/dept_manager.csv)
 
@@ -36,7 +36,7 @@
 
 - The complete data is stored in a csv file. The link is [Retire_Titles](https://github.com/manasidek/Pewlett_Hackard_Analysis/blob/main/Data/retirement_titles.csv)
 
-- On this list, further analysis was performed to filter employees who were promoted or were transfered to a different department during the tenure. The analysis also checks if the employees are currently working with Pewlett-Hackard. The below image is the list of employees who are up for retirement.
+- On this list, further analysis was performed to filter employees who were promoted or were transfered to a different department during the tenure. The analysis also checks if the employees are currently working with Pewlett-Hackard. The below image is the list of employees who are up for retirement along with their titles.
 
 ![Unique Titles](https://github.com/manasidek/Pewlett_Hackard_Analysis/blob/main/Images/unique_title.png)
 
